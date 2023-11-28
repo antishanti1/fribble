@@ -1,3 +1,7 @@
+import Footer from '@/components/Footer'
+import './globals.css'
+import Navbar from '@/components/Navbar'
+
 export const metadata = {
   title: 'Fribble',
   description: 'Dribble Clone',
@@ -11,11 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        Navabar
+        <Navbar />
         <main>
                {children}
         </main>
-        Footer
+        <Footer />
         </body>
     </html>
   )
